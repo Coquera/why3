@@ -206,7 +206,7 @@ LIB_TRANSFORM = simplify_formula inlining split_goal \
 		rec_logic gnat_split_conj gnat_split_disj \
 		eliminate_unused_hypo eliminate_literal induction induction_pr
 
-LIB_PRINTER = cntexmp_printer alt_ergo why3printer smtv1 smtv2 coq\
+LIB_PRINTER = cntexmp_printer alt_ergo why3printer smtv1 smtv2 psmtv2 coq\
 	      pvs isabelle \
 	      simplify gappa cvc3 yices mathematica
 
