@@ -186,6 +186,7 @@ theory Bool
    remove allprops
 end
 
+(*
 theory bool.Bool
    syntax function andb  "(and %1 %2)"
    syntax function orb   "(or %1 %2)"
@@ -195,6 +196,7 @@ theory bool.Bool
 
    remove allprops
 end
+*)
 
 theory bool.Ite
   syntax function ite "(ite %1 %2 %3)"
@@ -283,6 +285,7 @@ end
 
 
 (**** ***** inlined ---> import "smt-libv2-gnatprove.gen" **********************)
+(*
 (**********************************************************************
  ***                       gnat2why theories                        ***
  **********************************************************************)
@@ -331,7 +334,7 @@ theory ada__model_th.Discrete_Base_Theory
    remove allprops
 end
 (**** ***** end ---> import "smt-libv2-gnatprove.gen" **********************)
-
+*)
 
 
 (*+ FP not handled in an uniform way by all solvers

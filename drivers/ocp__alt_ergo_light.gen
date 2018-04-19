@@ -187,6 +187,7 @@ theory Bool
    remove allprops
 end
 
+(* not handled by Alt-Ergo
 theory bool.Bool
    syntax function andb  "(%1 and %2)"
    syntax function orb   "(%1 or %2)"
@@ -196,6 +197,7 @@ theory bool.Bool
 
    remove allprops
 end
+*)
 
 theory bool.Ite
   syntax function ite "(if %1 then %2 else %3)"
@@ -287,7 +289,7 @@ end
 (**********************************************************************
  ***                       gnat2why theories                        ***
  **********************************************************************)
-
+(*
 theory _gnatprove_standard_th.Integer
    syntax function bool_eq "(%1 = %2)"
    syntax function bool_ne "(not (%1 = %2))"
@@ -332,6 +334,7 @@ theory ada__model_th.Discrete_Base_Theory
    remove allprops
 end
 (**** ***** end ---> import "smt-libv2-gnatprove.gen" **********************)
+*)
 
 
 
